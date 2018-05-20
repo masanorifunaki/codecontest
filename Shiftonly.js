@@ -6,7 +6,6 @@ console.log(nums);
 while (nums.every((n) => (n % 2) === 0)) {
   count++;
   nums = nums.map((n) => n / 2);
-  console.log(nums);
 };
 
 console.log(count);
